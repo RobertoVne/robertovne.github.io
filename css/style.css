@@ -283,7 +283,7 @@ footer .link-rodape ul li a{
     color: #ffffff;
 }
 footer .link-rodape .atendimento{
-    text-align: right;
+    float: right;
     color: #ffffff;
     margin-top: 40px;
 }
