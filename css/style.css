@@ -1,0 +1,333 @@
+header nav{
+    background-color: #333333;
+    color: #ffffff;
+    position: relative;
+}
+.nav-container{
+    margin-top: 5px;
+    font-size: 12px;
+    width: 100%;
+}
+.nav-container li a{
+    color: #ffffff;
+}
+header .nav-container li:nth-of-type(1) {
+    float: left;
+}
+header .nav-container li:nth-of-type(2) {
+    float: right;
+    padding-left: 5px;
+}
+.nav-container ul{
+    float: right;
+}
+.nav-container ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+header .navbar-nav{
+    background-color: #333333;
+    margin-top: 20px;
+}
+header .navbar-nav li:nth-of-type(1){
+    margin-left: -20%;
+}
+header .navbar-nav li{
+    margin-left: 10px;
+}
+header .main-menu input {
+    background: none;
+    color: #ffffff;
+    border: 0;
+    border-bottom: 2px solid #999999;
+    border-radius: 0;
+    float: left;
+    width: 95%;
+}
+header .main-menu button {
+    background: none;
+    color: #ffffff;
+    border: 0;
+    font-size: 22px;
+    position: absolute;
+}
+header .main-menu .fa-shopping-cart {
+    color: #f8595f;
+    font-size: 33px;
+    float: left;
+    padding: 10px 10px;
+}
+header .navbar .logo {
+    display: block;
+}
+.navbar-nav{
+    list-style-type: none;
+}
+header .navbar-default .navbar-nav li {
+    background-color: #333333;
+}
+header .navbar-default .navbar-nav li a {
+    font-weight: bold;
+    color: #ffffff;
+}
+header .navbar-default .navbar-nav li a:hover {
+    color: #ffffff;
+    list-style-type: none;
+}
+header .navbar-default .navbar-nav li a:active{
+    color: #ffffff;
+    list-style-type: none;
+}
+
+header .cart-items:hover{
+    color: #f8595f;
+}
+
+header .navbar-default {
+    background-color: #333333;
+    color: #ffffff;
+    border: 0;
+    margin-bottom: 15px;
+}
+header .navbar-icon{
+    margin-top: 30px;
+}
+header .cart-items{
+    color: #ffffff;
+    font-size: 12px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+/*===*/
+.products .principal{
+    margin-top: -20px;
+    margin-bottom: 20px;
+} 
+.products .cars {
+    padding-bottom: 40px;
+}
+
+.products .cars-row {
+    padding-bottom: 20px;
+}
+.mais-desejados .principais {
+    color: #000000;
+    border-top: 1px solid #e4e4e4;
+    margin: 0 0 50px 0;
+    font-weight: bold;
+}
+.mais-desejados .principais .detalhes {
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: lowercase;
+    color: #ffffff;
+}
+.mais-desejados .principais .principal{
+    font-weight: bold;
+}
+.mais-desejados .product-item{
+    padding-top: 5px;
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+.mais-desejados .product-item img{
+    margin-bottom: 50px;
+}
+.mais-desejados .product-item:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: #000000 1s linear 0.1s;
+    background-color: #f2f6f7;
+    border-radius: 2px;
+    transition: transform 1s;
+}
+.mais-desejados .principais .novo{
+    background-color: #000000;
+    padding: 1px 7px;
+    float: left;
+    margin-left: 10px;
+}
+.mais-desejados .principais .frete{
+    background-color: #0082a7;
+    padding: 1px 7px;
+    float: right;
+    margin-right: 10px;
+}
+.mais-desejados .principais .oferta{
+    background-color: #de006f;
+    position: absolute;
+    padding: 1px 8px;
+    top: 25px;
+    right: 15px;
+    margin-right: 10px;
+}
+.mais-desejados .principais .price{
+    color: #B6B6B6;  
+    text-decoration: line-through;
+}
+.mais-desejados .principais .offer{
+    color: #f7595e;
+    margin-left: 5px;
+}
+.mais-desejados .principais .btn-comprar {
+    border: 1px solid #028e02;
+    color: #028e02;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.mais-desejados .principais .btn-comprar:hover{
+    color: #ffffff;
+    background-color: #028e02;
+}
+/*====*/
+.newsletter{
+    font-weight: bold;
+    background-color: #000000;
+    background-color:  #e4e4e4;
+}
+.newsletter .news{
+    font-weight: bold;
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.newsletter .news .banner {
+    text-align: center;
+    background: #333333;
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 10;
+    text-transform: uppercase;
+    margin: 30px 70px;
+    margin-bottom: 50px;
+}
+.newsletter .news .conta .contact {
+    padding: 15px 0 10px 0;
+}
+.newsletter .news .conta .contact i{
+    margin-left: 10px;
+}
+.newsletter .news .conta .contact p{
+    padding: 0 0 30px 15px;
+}
+.newsletter .news .conta .contact span{
+    color: #333333;
+    position: relative;
+    left: 18px;
+}
+.newsletter .news .conta .contact input{
+    border: 0;
+    border-bottom: 3px solid #333333;
+    background: transparent;
+    width: 65%;
+}
+.newsletter .news .conta .contact .btn-ok{
+    background-color: #333333;
+    border: 0;
+    color: #ffffff;
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.newsletter .news .btn-social{
+    margin: 10px;
+    background-color: #ffffff;
+    font-size: 20px;
+    border: 0;
+    color: #333333;
+    height: 40px;
+    width: 40px;
+    border-radius: 60px;
+}
+/*===*/
+footer{
+    background-color:  #323232;
+}
+footer .link-rodape .help{
+    color: #ffffff;
+    margin-top: 30px;
+}
+footer .link-rodape .logo{
+    margin-top: 55px;
+}
+footer .link-rodape .logo ul li{
+    margin-top: 50px;
+    display: inline-block;
+    z-index: 2;
+}
+footer .link-rodape .logo ul li a{
+    margin-left: 5px;
+}
+.info{
+    margin-top: 50px;
+}
+footer .link-rodape{
+    margin-bottom: 60px;
+}
+footer .link-rodape ul{
+    list-style: none;
+    color: #ffffff;
+    padding-left: 5px;
+    width: 100%;
+    line-height: 2;
+} 
+footer .link-rodape ul li a{
+    color: #ffffff;
+}
+footer .link-rodape .atendimento{
+    color: #ffffff;
+    margin-top: 40px;
+}
+footer .link-rodape .atendimento .adcionais{
+    margin-top: -11px;
+    font-size: 12px;
+}
+footer .link-rodape .atendimento .atend{
+    font-weight: bold;
+}
+footer .link-rodape .atendimento .pref{
+    font-size: 15px;
+}
+footer .link-rodape .atendimento .number{
+    margin-left: 2px;
+    font-size: 24px;
+}
+footer .util{
+    padding-top: 20px;
+    background-color: #e4e4e4;
+    color: #000000;
+    margin-left: -10px;
+}
+footer .util .pagamento{
+    font-weight: bold;
+}
+footer .util .pag{
+    margin-left: 90px;
+}
+footer .util .cert{
+    display: inline;
+    margin-left: -15px;
+}
+footer .util .compra{
+    font-weight: bold;
+    display: inline;
+    margin-right: 10px;
+}
+footer .util ul li{
+    list-style-type: none;
+}
+footer .about{
+    color: #c9c9c9;
+    background-color: #ffffff;
+}
+footer .about li{
+    list-style-type: none;
+}
