@@ -18,7 +18,7 @@ header .nav-container li:nth-of-type(2) {
     float: right;
     padding-left: 5px;
 }
-.nav-container ul{ 
+.nav-container ul{
     float: right;
 }
 .nav-container ul li{
@@ -77,6 +77,18 @@ header .navbar-default .navbar-nav li a:focus{
     color: #ffffff;
     list-style-type: none;
     text-decoration: none;
+}
+header .cart-items:hover{
+    color: #f8595f;
+}
+header .navbar-default {
+    background-color: #333333;
+    color: #ffffff;
+    border: 0;
+    margin-bottom: 15px;
+}
+header .navbar-icon{
+    margin-top: 30px;
 }
 header .cart-items{
     color: #ffffff;
